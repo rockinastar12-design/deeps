@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deeps Chhetri | Traveler & Photographer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('https://images.unsplash.com/photo-1469474099711-420a702d6b2f?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-600 tracking-tight">DEEPS.</h1>
+            <div class="space-x-6 hidden md:block">
+                <a href="#home" class="hover:text-blue-600 transition">Home</a>
+                <a href="#about" class="hover:text-blue-600 transition">About</a>
+                <a href="#interests" class="hover:text-blue-600 transition">Passion</a>
+                <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-bg h-[70vh] flex items-center justify-center text-center text-white">
+        <div class="px-4">
+            <h2 class="text-5xl md:text-7xl font-extrabold mb-4">Deeps Chhetri</h2>
+            <p class="text-xl md:text-2xl font-light max-w-2xl mx-auto">Capturing the world through a lens, one journey at a time.</p>
+            <a href="#contact" class="mt-8 inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition transform hover:scale-105">
+                Let's Connect
+            </a>
+        </div>
+    </header>
+
+    <section id="about" class="py-20 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-6">Namaste!</h3>
+            <p class="text-lg text-gray-600 leading-relaxed">
+                I am a passionate explorer based in the beautiful hills of <strong>Baglung</strong>. 
+                I believe in the power of storytelling through visuals and the warmth of human connection. 
+                Whether I'm trekking through remote landscapes or meeting new people, I strive to be a 
+                helpful and friendly companion to everyone I meet.
+            </p>
+        </div>
+    </section>
+
+    <section id="interests" class="py-16 bg-gray-100 px-4">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-2xl shadow-sm text-center">
+                <div class="text-blue-500 text-4xl mb-4"><i class="fas fa-map-marked-alt"></i></div>
+                <h4 class="text-xl font-bold mb-2">Travelling</h4>
+                <p class="text-gray-500">Exploring hidden gems across Nepal and beyond.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm text-center">
+                <div class="text-red-500 text-4xl mb-4"><i class="fas fa-video"></i></div>
+                <h4 class="text-xl font-bold mb-2">Video Making</h4>
+                <p class="text-gray-500">Creating cinematic memories and travel vlogs.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm text-center">
+                <div class="text-yellow-500 text-4xl mb-4"><i class="fas fa-camera-retro"></i></div>
+                <h4 class="text-xl font-bold mb-2">Photography</h4>
+                <p class="text-gray-500">Freezing moments in time with my camera lens.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 px-4">
+        <div class="max-w-xl mx-auto bg-white border border-gray-200 rounded-3xl p-10 shadow-xl">
+            <h3 class="text-3xl font-bold text-center mb-8">Get In Touch</h3>
+            <div class="space-y-6">
+                <div class="flex items-center space-x-4">
+                    <div class="bg-blue-100 p-3 rounded-full text-blue-600">
+                        <i class="fas fa-location-dot"></i>
+                    </div>
+                    <div>
+                        <p class="text-sm text-gray-500">Location</p>
+                        <p class="font-medium">Baglung, Nepal</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="bg-green-100 p-3 rounded-full text-green-600">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div>
+                        <p class="text-sm text-gray-500">Phone</p>
+                        <p class="font-medium">+977 9847639561</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-10 pt-6 border-t text-center">
+                <p class="text-gray-400 italic">"Always happy to help and make new friends!"</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-8 text-center">
+        <p>&copy; 2024 Deeps Chhetri. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
